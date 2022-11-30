@@ -1,0 +1,973 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.all{
+    position: relative;
+    width: 1440px;
+    height: 1870px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 64px 165px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: auto;
+    background: url(./shared/logo.svg);
+}
+
+.ctn{
+    position: absolute;
+    width: 175px;
+    height: 58px;
+    border-radius: 8px;
+    background: #e8eff2;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 16px;
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #162542;
+    text-transform: uppercase;
+    transition: all 0.7s ease;
+}
+
+.ctn:hover{
+    background: #162542;
+    color: #ffffff;
+}
+
+h1{
+    position: absolute;
+    top: 256px;
+    left: 165px;
+    width: 445px;
+    height: 112px;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #162542;
+}
+
+.p1{
+    position: absolute;
+    width: 445px;
+    height: 78px;
+    top: 392px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #7b8bad;
+    left: 165px;
+}
+
+.ctn2{
+    position: absolute;
+    width: 175px;
+    height: 58px;
+    border-radius: 8px;
+    background: #f16718;
+    text-align: center;
+    padding-top: 16px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+    top: 510px;
+    left: 165px;
+    transition: all 0.7s ease;
+}
+
+.ctn2:hover{
+    background: #ff9b62;
+}
+
+.p2{
+    position: absolute;
+    width: 127px;
+    height: 26px;
+    top: 526px;
+    left: 380px;
+    color: #7b8bad;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.keyboard{
+    position: absolute;
+    background: url(./desktop/image-keyboard.jpg) no-repeat;
+    background-size: cover;
+    width: 540px;
+    height: 480px;
+    left: 735px;
+    top: 196px;
+}
+
+.rectangle{
+    position: absolute;
+    width: 255px;
+    height: 240px;
+    left: 1305px;
+    top: 196px;
+    border-radius: 10px;
+    background: url(./shared/pattern-square.svg);
+}
+
+.orangekeyboard{
+    position: absolute;
+    width: 255px;
+    height: 480px;
+    left: 165px;
+    top: 706px;
+    mix-blend-mode: multiply;
+    background: url(./desktop/image-phone-and-keyboard.jpg) no-repeat;
+    background-size: cover;
+    opacity: 0.75;
+}
+
+.rectangle2{
+    position: absolute;
+    width: 255px;
+    height: 240px;
+    background: url(./shared/pattern-square.svg);
+    left: -120px;
+    top: 950px;
+    border-radius: 10px;
+}
+
+.glasskeyboard{
+    position: absolute;
+    background: url(./desktop/image-glass-and-keyboard.jpg) no-repeat;
+    background-size: cover;
+    width: 445px;
+    height: 480px;
+    left: 450px;
+    top: 706px;
+}
+
+h2{
+    position: absolute;
+    width: 255px;
+    height: 108px;
+    left: 1020px;
+    top: 818px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #162542;
+}
+
+.p3{
+    position: absolute;
+    width: 255px;
+    height: 130px;
+    left: 1020px;
+    top: 953px;
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    color: #7B8BAD;
+}
+
+.cards{
+    position: absolute;
+    display: flex;
+    top: 1353px;
+    left: 135px;
+}
+
+.card{
+    width: 255px;
+    height: 323px;
+    margin-left: 30px;
+}
+
+.container{    
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background: #F16718;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    position: absolute;
+    width: 255px;
+    height: 56px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    /* or 117% */
+
+    text-transform: uppercase;
+
+    color: #162542;
+    top: 113px;
+}
+
+.p4{
+    position: absolute;
+    top: 193px;
+    width: 255px;
+    height: 130px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    color: #7B8BAD;
+}
+
+
+.p5{
+    position: absolute;
+    width: 272px;
+    height: 26px;
+    top: 1805px;
+    left: 568px;
+    color: #7B8BAD;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* -------------RESPONSIVE MEDIA QUERIES 768------------------------- */
+@media only screen and (max-width: 768px){
+    .all{
+        position: relative;
+        width: 768px;
+        height: 2128px;
+        overflow-x: hidden;
+    }
+
+    nav{
+        padding: 40px 39px;
+    }
+    
+    .ctn{
+        position: absolute;
+        left: 553px;
+    }
+
+    h1{
+        position: absolute;
+        width: 339px;
+        height: 96px;
+        top: 220px;
+        left: 39px;
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .p1{
+        position: absolute;
+        width: 339px;
+        height: 78px;
+        top: 350px;
+        left: 39px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    .rectangle{
+        display: none;
+    }
+
+    .rectangle2{
+        display: none;
+    }
+
+    .keyboard{
+        position: absolute;
+        left: 447px;
+        background: url(./tablet/image-keyboard.jpg) no-repeat;
+        background-size: cover;
+        width: 478px;
+        height: 425px;
+        top: 160px;
+
+    }
+
+    .ctn2{
+        position: absolute;
+        left: 39px;
+    }
+
+    .p2{
+        position: absolute;
+        left: 251px;
+    }
+
+    .orangekeyboard{
+        position: absolute;
+        left: 39px;
+        background: url(./tablet/image-phone-and-keyboard.jpg) no-repeat;
+        background-size: cover;
+        width: 214px;
+        height: 320px;
+        top: 625px;
+    }
+
+    .glasskeyboard{
+        position: absolute;
+        left: 283px;
+        background: url(./tablet/image-glass-and-keyboard.jpg) no-repeat;
+        background-size: cover;
+        width: 445px;
+        height: 320px;
+        top: 625px;
+    }
+
+    h2{
+        position: absolute;
+        left: 39px;
+        top: 1017px;
+    }
+
+    .p3{
+        position: absolute;
+        left: 330px;
+        top: 1032px;
+        width: 398px;
+        height: 78px;
+    }
+
+    .cards{
+        position: absolute;
+        left: -39px;
+        top: 1200px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+    }
+
+    .card{
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .p5{
+        position: absolute;
+        width: 272px;
+        height: 26px;
+        top: 2059px;
+        left: 247px;
+    }
+}
+
+/* ------------------690---------------------------- */
+
+@media only screen and (max-width: 690px){
+    .all{
+        position: relative;
+        width: 690px;
+        height: 2228px;
+        overflow-x: hidden;
+    }
+    
+    .ctn{
+        position: absolute;
+        left: 500px;
+    }
+
+    h1{
+        position: absolute;
+        width: 339px;
+        height: 96px;
+        top: 220px;
+        left: 39px;
+        font-size: 45px;
+        line-height: 48px;
+    }
+
+    .glasskeyboard{
+        position: absolute;
+        left: 283px;
+        background: url(./tablet/image-glass-and-keyboard.jpg) no-repeat;
+        background-size: cover;
+        width: 400px;
+        height: 320px;
+        top: 625px;
+    }
+
+    .p3{
+        position: absolute;
+        left: 300px;
+        top: 1032px;
+        width: 370px;
+        height: 78px;
+    }
+
+    .cards{
+        position: absolute;
+        left: -20px;
+        top: 1200px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+    }
+
+    .p5{
+        position: absolute;
+        width: 272px;
+        height: 26px;
+        top: 2059px;
+        left: 217px;
+    }
+}
+
+
+/* -----------------------612------------------------ */
+@media only screen and (max-width: 612px){
+    .all{
+        position: relative;
+        width: 612px;
+        height: 2228px;
+        overflow-x: hidden;
+    }
+
+    .ctn{
+        position: absolute;
+        left: 420px;
+    }
+
+    h1{
+        position: absolute;
+        width: 339px;
+        height: 96px;
+        top: 220px;
+        left: 39px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .p1{
+        position: absolute;
+        width: 280px;
+    }
+
+    .keyboard{
+        position: absolute;
+        left: 397px;
+        background: url(./tablet/image-keyboard.jpg) no-repeat;
+        background-size: cover;
+        width: 478px;
+        height: 355px;
+        top: 160px;
+
+    }
+
+    .glasskeyboard{
+        position: absolute;
+        left: 283px;
+        background: url(./tablet/image-glass-and-keyboard.jpg) no-repeat;
+        background-size: cover;
+        width: 320px;
+        height: 320px;
+        top: 625px;
+    }
+
+    .p3{
+        position: absolute;
+        left: 300px;
+        top: 1032px;
+        width: 300px;
+        height: 78px;
+    }
+
+    .cards{
+        position: absolute;
+        left: 0px;
+        top: 1200px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+    }
+
+    .p5{
+        position: absolute;
+        width: 272px;
+        height: 26px;
+        top: 2059px;
+        left: 177px;
+    }
+}
+
+
+/* ----------------569--------------- */
+
+@media only screen and (max-width: 569px){
+    .all{
+        position: relative;
+        width: 569px;
+        height: 3150px;
+        overflow-x: hidden;
+    }
+
+    nav{
+        padding: 40px 39px;
+    }
+    
+    .ctn{
+        position: absolute;
+        left: 370px;
+    }
+
+    h1{
+        position: absolute;
+        width: 339px;
+        height: 96px;
+        top: 175px;
+        left: 39px;
+        font-size: 43px;
+        line-height: 48px;
+    }
+
+    .p1{
+        position: absolute;
+        width: 339px;
+        height: 78px;
+        top: 300px;
+        left: 39px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .ctn2{
+        position: absolute;
+        top: 430px;
+    }
+
+    .p2{
+        position: absolute;
+        top: 445px;
+    }
+
+    .ctn2{
+        position: absolute;
+        left: 39px;
+    }
+
+    .p2{
+        position: absolute;
+        left: 251px;
+    }
+    
+    .keyboard{
+        position: absolute;
+        left: 40px;
+        background: url(./mobile/image-keyboard.jpg) no-repeat;
+        background-size: cover;
+        width: 478px;
+        height: 355px;
+        top: 560px;
+
+    }
+
+    .orangekeyboard{
+        position: absolute;
+        left: 39px;
+        background: url(./mobile/image-phone-and-keyboard.jpg) no-repeat;
+        background-size: cover;
+        width: 214px;
+        height: 290px;
+        top: 950px;
+    }
+
+    .glasskeyboard{
+        position: absolute;
+        left: 283px;
+        background: url(./mobile/image-glass-and-keyboard.jpg) no-repeat;
+        background-size: cover;
+        width: 265px;
+        height: 320px;
+        top: 950px;
+    }
+
+    h2{
+        position: absolute;
+        left: 39px;
+        top: 1317px;
+    }
+
+    .p3{
+        position: absolute;
+        left: 290px;
+        top: 1317px;
+        width: 260px;
+        height: 78px;
+    }
+
+    .cards{
+        position: absolute;
+        left: -25px;
+        top: 1500px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+    }
+
+    .container{
+        position: absolute;
+        left: 100px;
+    }
+
+    h3{
+        position: absolute;
+    }
+
+    .card{
+        position: relative;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .p5{
+        position: absolute;
+        width: 272px;
+        height: 26px;
+        top: 3100px;
+        left: 140px;
+    }
+}
+
+/* ----------------516--------------- */
+
+@media only screen and (max-width: 516px){
+    .all{
+        position: relative;
+        width: 516px;
+        height: 3150px;
+    }
+
+    .ctn{
+        position: absolute;
+        left: 300px;
+    }
+
+    .keyboard{
+        position: absolute;
+        width: 450px;
+    }
+
+    .glasskeyboard{
+        position: absolute;
+        width: 210px;
+        height: 290px;
+    }
+
+    h2{
+        position: absolute;
+        font-size: 30px;
+    }
+
+    .p3{
+        position: absolute;
+        width: 200px;
+    }
+
+    .p5{
+        position: absolute;
+        left: 120px;
+    }
+}
+
+/* ----------------486--------------- */
+
+@media only screen and (max-width: 486px){
+    .all{
+        position: relative;
+        width: 486px;
+        height: 3150px;
+    }
+
+    .keyboard{
+        position: absolute;
+        width: 390px;
+    }
+
+    .glasskeyboard{
+        position: absolute;
+        width: 170px;
+    }
+
+    h2{
+        position: absolute;
+        left: 39px;
+        width: 400px;
+        font-size: 26px;
+    }
+
+    .p3{
+        position: absolute;
+        left: 39px;
+        width: 350px;
+        top: 1400px;
+    }
+}
+
+/* ----------------450--------------- */
+
+@media only screen and (max-width: 450px){
+    .all{
+        position: relative;
+        width: 450px;
+        height: 3150px;
+    }
+
+    .ctn{
+        position: absolute;
+        left: 250px;
+    }
+
+    .orangekeyboard{
+        position: absolute;
+        left: 39px;
+        width: 150px;
+    }
+
+    .glasskeyboard{
+        position: absolute;
+        left: 250px;
+    }
+
+    .p5{
+        position: absolute;
+        left: 80px;
+    }
+}
+
+/* ----------------416--------------- */
+
+@media only screen and (max-width: 416px){
+    .all{
+        position: relative;
+        width: 416px;
+        height: 3150px;
+    }
+
+    nav{
+        position: absolute;
+        padding: 27px 24px;
+    }
+
+    .ctn{
+        position: absolute;
+        left: 200px;
+    }
+
+    h1{
+        position: absolute;
+        width: 327px;
+        height: 96px;
+        left: 24px;
+        top: 135px;
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .p1{
+        position: absolute;
+        width: 327px;
+        height: 78px;
+        left: 24px;
+        top: 263px;
+    }
+
+    .ctn2{
+        position: absolute;
+        left: 24px;
+        top: 373px;
+        width: 150px;
+        height: 48px;
+        font-size: 16px;
+        padding-top: 11px;
+    }
+
+    .p2{
+        position: absolute;
+        width: 127px;
+        height: 26px;
+        top: 384px;
+        left: 206px;
+    }
+
+    .keyboard{
+        position: absolute;
+        width: 372px;
+        height: 331px;
+        left: 24px;
+        top: 485px;
+    }
+
+    .orangekeyboard{
+        position: absolute;
+        width: 144px;
+        height: 226px;
+        top: 823.5px;
+        left: 32.03px;
+    }
+
+    .glasskeyboard{
+        position: absolute;
+        width: 200px;
+        height: 193px;
+        left: 195px;
+        top: 840px;
+    }
+
+    h2{
+        position: absolute;
+        width: 255px;
+        height: 108px;
+        font-size: 32px;
+        top: 1108px;
+        left: 60px;
+    }
+
+    .p3{
+        position: absolute;
+        width: 327px;
+        height: 104px;
+        left: 60px;
+        top: 1280px;
+    }
+
+    .cards{
+        position: absolute;
+        top: 1400px;
+    }
+
+    .p5{
+        position: absolute;
+        left: 70px;
+    }
+}
+
+/* ----------------375--------------- */
+
+@media only screen and (max-width: 375px){
+    .all{
+        position: relative;
+        width: 375px;
+        height: 3150px;
+    }
+
+    .keyboard{
+        position: absolute;
+        width: 372px;
+        height: 331px;
+        left: 24px;
+    }
+
+    .orangekeyboard{
+        position: absolute;
+        width: 144px;
+        height: 226px;
+        left: -32.03px;
+    }
+
+    .glasskeyboard{
+        position: absolute;
+        width: 220px;
+        height: 193px;
+        left: 131px;
+    }
+    
+    h2{
+        position: absolute;
+        width: 255px;
+        height: 108px;
+        left: 90px;
+    }
+
+    .p3{
+        position: absolute;
+        width: 327px;
+        height: 104px;
+        left: 24px;
+    }
+    .p5{
+        position: absolute;
+        left: 50px;
+    }
+}
+
+
+/* ----------------350--------------- */
+
+@media only screen and (max-width: 350px){
+    .ctn{
+        position: absolute;
+        left: 140px;
+    }
+
+    .ctn2{
+        position: absolute;
+        left: 0px;
+    }
+
+    .p2{
+        position: absolute;
+        left: 170px;
+        width: 150px;
+    }
+
+    h2{
+        position: absolute;
+        left: 24px;
+    }
+
+    .p5{
+        position: absolute;
+        left: 20px;
+    }
+}
